@@ -5,9 +5,9 @@ import java.util.Random;
 
 public class MasterMindLogic {
 
-    private final Color[] SECRET;
-    private final Color[] PALETTE;
-    private final String[] LABELS;
+    public final Color[] SECRET;
+    public final Color[] PALETTE;
+    public final String[] LABELS;
 
     // Constructor
     public MasterMindLogic(Color[] palette, int secretLength, String[] labels) {
